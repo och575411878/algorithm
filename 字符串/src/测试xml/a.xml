@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:student1 = "myschema1"
+xmlns:student2 = "myschema2"
+xsi:schemaLocation="http://example.com/student1 student1.xsd
+                             http://example.com/student2 student2.xsd"
+>
+    <student1:persons>
+        <student1:student>
+            <student1:name>aa</student1:name>
+            <student1:score>bb</student1:score>
+        </student1:student>
+    </student1:persons>
+
+    <student2:persons>
+        <student2:student>
+            <student2:name>aa</student2:name>
+            <student2:id>aa</student2:id>
+        </student2:student>
+    </student2:persons>
+</persons>
